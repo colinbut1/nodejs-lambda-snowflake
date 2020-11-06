@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-lambda-snowflake",
+  "version": "1.0.0",
+  "description": "nodejs lambda that connects to snowflake",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinbut1/nodejs-lambda-snowflake.git"
+  },
+  "author": "Colin But",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colinbut1/nodejs-lambda-snowflake/issues"
+  },
+  "homepage": "https://github.com/colinbut1/nodejs-lambda-snowflake#readme",
+  "dependencies": {
+    "aws-sdk": "^2.786.0",
+    "aws-xray-sdk": "^3.2.0",
+    "snowflake-sdk": "^1.5.3"
+  }
+}
